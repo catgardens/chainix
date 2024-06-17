@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "chaivim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1718632878,
+        "narHash": "sha256-mI4YT/WEx0+b6SOKuOzTpTanZQsra5o2/pdb6OpVyc8=",
+        "owner": "comfysage",
+        "repo": "chaivim",
+        "rev": "dfd12ca616c630d4d6db14732b207442c889be32",
+        "type": "github"
+      },
+      "original": {
+        "owner": "comfysage",
+        "repo": "chaivim",
+        "type": "github"
+      }
+    },
     "flake-compat": {
       "flake": false,
       "locked": {
@@ -67,22 +83,6 @@
       "original": {
         "owner": "hercules-ci",
         "repo": "gitignore.nix",
-        "type": "github"
-      }
-    },
-    "lazy-nvim": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1678889456,
-        "narHash": "sha256-R+sfPOuWfwbrNXUiKQcb8MHYqK+o5Pw8gkEaYaidqp0=",
-        "owner": "folke",
-        "repo": "lazy.nvim",
-        "rev": "6b55862d2d264f0b48e0b9e42cc2d14f136bed55",
-        "type": "github"
-      },
-      "original": {
-        "owner": "folke",
-        "repo": "lazy.nvim",
         "type": "github"
       }
     },
@@ -176,8 +176,8 @@
     },
     "root": {
       "inputs": {
+        "chaivim": "chaivim",
         "flake-parts": "flake-parts",
-        "lazy-nvim": "lazy-nvim",
         "nixpkgs": "nixpkgs",
         "pre-commit-nix": "pre-commit-nix"
       }

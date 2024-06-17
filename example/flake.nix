@@ -7,68 +7,67 @@
     neovim-nix.url = "github:willruggiano/neovim.nix";
   };
 
-  outputs = {flake-parts, ...} @ inputs:
-    flake-parts.lib.mkFlake {inherit inputs;} {
-      imports = [
-        inputs.neovim-nix.flakeModule
-      ];
+  outputs =
+    { flake-parts, ... }@inputs:
+    flake-parts.lib.mkFlake { inherit inputs; } {
+      imports = [ inputs.neovim-nix.flakeModule ];
 
-      systems = ["x86_64-linux"];
-      perSystem = {
-        config,
-        pkgs,
-        ...
-      }: {
-        neovim = {
-          env = {
-            BUILT_WITH_NEOVIM_NIX = "fuck yeah it is";
-          };
-          paths = [pkgs.stylua];
-
-          lazy = {
-            settings = {
-              performance.rtp = {
-                disabled_plugins = [
-                  "gzip"
-                  "matchit"
-                  "netrwPlugin"
-                ];
-              };
+      systems = [ "x86_64-linux" ];
+      perSystem =
+        { config, pkgs, ... }:
+        {
+          neovim = {
+            env = {
+              BUILT_WITH_NEOVIM_NIX = "fuck yeah it is";
             };
-            plugins = {
-              example = {
-                src = ./example;
-                config = ./example.lua;
-                lazy = false;
-                priority = 1000;
-                dependencies = {
-                  lfs = let
-                    package = pkgs.luajitPackages.luafilesystem;
-                  in {
-                    inherit package;
-                    cpath = "${package}/lib/lua/5.1/?.so";
-                  };
+            paths = [ pkgs.stylua ];
 
-                  plenary = {
-                    package = pkgs.vimPlugins.plenary-nvim;
-                  };
+            lazy = {
+              settings = {
+                performance.rtp = {
+                  disabled_plugins = [
+                    "gzip"
+                    "matchit"
+                    "netrwPlugin"
+                  ];
                 };
-                paths = [pkgs.luajitPackages.luacheck];
+              };
+              plugins = {
+                example = {
+                  src = ./example;
+                  config = ./example.lua;
+                  lazy = false;
+                  priority = 1000;
+                  dependencies = {
+                    lfs =
+                      let
+                        package = pkgs.luajitPackages.luafilesystem;
+                      in
+                      {
+                        inherit package;
+                        cpath = "${package}/lib/lua/5.1/?.so";
+                      };
+
+                    plenary = {
+                      package = pkgs.vimPlugins.plenary-nvim;
+                    };
+                  };
+                  paths = [ pkgs.luajitPackages.luacheck ];
+                };
               };
             };
           };
-        };
 
-        packages = {
-          default = config.neovim.final;
-          test = pkgs.writeShellApplication {
-            name = "neovim-nix-spec";
-            runtimeInputs = [config.neovim.final];
-            text = ''
-              nvim --headless -c "PlenaryBustedDirectory ${./.}/spec { init = '${config.neovim.build.initlua}' }"
-            '';
+          packages = {
+            default = config.neovim.final;
+            test = pkgs.writeShellApplication {
+              name = "neovim-nix-spec";
+              runtimeInputs = [ config.neovim.final ];
+              text = ''
+                nvim --headless -c "PlenaryBustedDirectory ${./.}/spec { init = '${config.neovim.build.initlua}' }"
+              '';
+            };
           };
         };
-      };
     };
 }
