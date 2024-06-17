@@ -1,0 +1,96 @@
+[chaivim]
+fetch.github = 'comfysage/chaivim'
+src.git = 'https://github.com/comfysage/chaivim'
+src.branch = 'rework/flake'
+
+[keymaps]
+fetch.github = 'comfysage/keymaps.nvim'
+src.git = 'https://github.com/comfysage/keymaps.nvim'
+
+[yosu]
+fetch.github = 'comfysage/yosu.nvim'
+src.git = 'https://github.com/comfysage/yosu.nvim'
+
+[base46]
+fetch.github = 'comfysage/base46'
+src.git = 'https://github.com/comfysage/base46'
+
+[plenary]
+fetch.github = 'nvim-lua/plenary.nvim'
+src.git = 'https://github.com/nvim-lua/plenary.nvim'
+
+[telescope]
+fetch.github = 'nvim-telescope/telescope.nvim'
+src.git = 'https://github.com/nvim-telescope/telescope.nvim'
+
+[lualine]
+fetch.github = 'nvim-lualine/lualine.nvim'
+src.git = 'https://github.com/nvim-lualine/lualine.nvim'
+
+[evergarden]
+fetch.github = 'comfysage/evergarden'
+src.git = 'https://github.com/comfysage/evergarden'
+
+["lazy.nvim"]
+fetch.github = 'folke/lazy.nvim'
+src.git = 'https://github.com/folke/lazy.nvim'
+
+[treesitter]
+fetch.github = 'nvim-treesitter/nvim-treesitter'
+src.git = 'https://github.com/nvim-treesitter/nvim-treesitter'
+
+[nvim-cmp]
+fetch.github = 'hrsh7th/nvim-cmp'
+src.git = 'https://github.com/hrsh7th/nvim-cmp'
+
+[lspconfig]
+fetch.github = 'neovim/nvim-lspconfig'
+src.git = 'https://github.com/neovim/nvim-lspconfig'
+
+[luasnip]
+fetch.github = 'L3MON4D3/LuaSnip'
+src.git = 'https://github.com/L3MON4D3/LuaSnip'
+
+[null]
+fetch.github = 'nvimtools/none-ls.nvim'
+src.git = 'https://github.com/nvimtools/none-ls.nvim'
+
+[mini]
+fetch.github = 'echasnovski/mini.nvim'
+src.git = 'https://github.com/echasnovski/mini.nvim'
+
+[gitsigns]
+fetch.github = 'lewis6991/gitsigns.nvim'
+src.git = 'https://github.com/lewis6991/gitsigns.nvim'
+
+[telescope_fzf]
+fetch.github = 'nvim-telescope/telescope-fzf-native.nvim'
+src.git = 'https://github.com/nvim-telescope/telescope-fzf-native.nvim'
+
+[telescope_select]
+fetch.github = 'nvim-telescope/telescope-ui-select.nvim'
+src.git = 'https://github.com/nvim-telescope/telescope-ui-select.nvim'
+
+[whichkey]
+fetch.github = 'folke/which-key.nvim'
+src.git = 'https://github.com/folke/which-key.nvim'
+
+[todo_comments]
+fetch.github = 'folke/todo-comments.nvim'
+src.git = 'https://github.com/folke/todo-comments.nvim'
+
+[trouble]
+fetch.github = 'folke/trouble.nvim'
+src.git = 'https://github.com/folke/trouble.nvim'
+
+[incline]
+fetch.github = 'b0o/incline.nvim'
+src.git = 'https://github.com/b0o/incline.nvim'
+
+[indent]
+fetch.github = 'lukas-reineke/indent-blankline.nvim'
+src.git = 'https://github.com/lukas-reineke/indent-blankline.nvim'
+
+[fidget]
+fetch.github = 'j-hui/fidget.nvim'
+src.git = 'https://github.com/j-hui/fidget.nvim'

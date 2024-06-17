@@ -1,37 +1,23 @@
 {
-  description = "Example usage of willruggiano/neovim.nix";
-
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
-    neovim-nix.url = "github:willruggiano/neovim.nix";
+    chainix.url = "github:isabelroses/chainix";
   };
 
   outputs =
-    { flake-parts, ... }@inputs:
+    { flake-parts, chainix, ... }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
-      imports = [ inputs.neovim-nix.flakeModule ];
+      imports = [ chainix.flakeModule ];
 
       systems = [ "x86_64-linux" ];
       perSystem =
         { config, pkgs, ... }:
         {
           neovim = {
-            env = {
-              BUILT_WITH_NEOVIM_NIX = "fuck yeah it is";
-            };
             paths = [ pkgs.stylua ];
 
-            lazy = {
-              settings = {
-                performance.rtp = {
-                  disabled_plugins = [
-                    "gzip"
-                    "matchit"
-                    "netrwPlugin"
-                  ];
-                };
-              };
+            chaivim = {
               plugins = {
                 example = {
                   src = ./example;

@@ -56,11 +56,13 @@ in
               default = { };
               description = "Environment variables to bake into the final Neovim derivation's runtime";
             };
+
             cpaths = mkOption {
               internal = true;
               type = listOf str;
               default = [ ];
             };
+
             paths = mkOption {
               type = listOf package;
               default = [ ];
@@ -74,11 +76,7 @@ in
           };
         };
 
-        config = {
-          neovim = {
-            final = mkNeovimEnv { inherit config pkgs; };
-          };
-        };
+        config.neovim.final = mkNeovimEnv { inherit config pkgs; };
       }
     );
   };

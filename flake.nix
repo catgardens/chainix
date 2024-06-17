@@ -4,38 +4,23 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
-
-    chaivim = {
-      url = "github:comfysage/chaivim";
-      flake = false;
-    };
-
     pre-commit-nix.url = "github:cachix/pre-commit-hooks.nix";
   };
 
   outputs =
-    { flake-parts, self, ... }@inputs:
+    { self, flake-parts, ... }@inputs:
     flake-parts.lib.mkFlake { inherit self inputs; } {
       imports = [ inputs.pre-commit-nix.flakeModule ];
 
-      flake = {
-        flakeModule = {
-          imports = [ ./modules ];
-        };
-      };
+      flake.flakeModule.imports = [ ./modules ];
 
       systems = [
         "aarch64-darwin"
         "x86_64-linux"
       ];
+
       perSystem =
-        {
-          config,
-          inputs',
-          pkgs,
-          system,
-          ...
-        }:
+        { pkgs, config, ... }:
         {
           apps = {
             check.program = pkgs.writeShellApplication {
@@ -44,32 +29,30 @@
                 nix run ./example#test
               '';
             };
+
             check-local.program = pkgs.writeShellApplication {
               name = "check-local";
               text = ''
-                nix run --override-input neovim-nix path:./. ./example#test
+                nix run --override-input chainix path:./. ./example#test
               '';
             };
           };
 
           devShells.default = pkgs.mkShell {
             name = "neovim.nix";
-            shellHook = ''
-              ${config.pre-commit.installationScript}
-            '';
+            shellHook = config.pre-commit.installationScript;
           };
 
           formatter = pkgs.nixfmt-rfc-style;
 
           packages = {
-            utils = pkgs.callPackage ./utils.nix { };
+            utils = pkgs.callPackage ./pkgs/utils.nix { };
+            chaivim = pkgs.callPackage ./pkgs/chaivim.nix { };
           };
 
-          pre-commit = {
-            settings = {
-              hooks.nixfmt.enable = true;
-              hooks.stylua.enable = true;
-            };
+          pre-commit.settings.hooks = {
+            nixfmt.enable = true;
+            stylua.enable = true;
           };
         };
     };
