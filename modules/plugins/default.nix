@@ -7,12 +7,20 @@ with lib; let
   inherit (flake-parts-lib) mkPerSystemOption;
   pluginSpec = with types; {
     options = {
+      enabled = mkOption {
+        type = nullOr (oneOf [bool str]);
+        default = null;
+      };
       src = mkOption {
         type = nullOr (oneOf [attrs path]);
         default = null;
       };
       package = mkOption {
         type = nullOr package;
+        default = null;
+      };
+      dev = mkOption {
+        type = nullOr bool;
         default = null;
       };
       name = mkOption {
@@ -28,7 +36,7 @@ with lib; let
         default = {};
       };
       init = mkOption {
-        type = nullOr (oneOf [package path]);
+        type = nullOr (oneOf [package path str]);
         default = null;
       };
       config = mkOption {
@@ -43,12 +51,20 @@ with lib; let
         type = nullOr (oneOf [str (listOf str)]);
         default = null;
       };
+      cmd = mkOption {
+        type = nullOr (oneOf [str (listOf str)]);
+        default = null;
+      };
       ft = mkOption {
         type = nullOr (oneOf [str (listOf str)]);
         default = null;
       };
       keys = mkOption {
-        type = nullOr (oneOf [str (listOf str)]);
+        type = nullOr str;
+        default = null;
+      };
+      main = mkOption {
+        type = nullOr str;
         default = null;
       };
       priority = mkOption {
@@ -153,6 +169,11 @@ in {
                   inherit name;
                   dir = "${package}";
                 }
+                // optionalAttrs (isBool attrs.enabled) {inherit (attrs) enabled;}
+                // optionalAttrs (isString attrs.enabled) {
+                  enabled = lib.generators.mkLuaInline attrs.enabled;
+                }
+                // optionalAttrs (isBool attrs.dev) {inherit (attrs) dev;}
                 // optionalAttrs (attrs.lazy != null) {inherit (attrs) lazy;}
                 // optionalAttrs (attrs.dependencies != {}) {
                   dependencies = let
@@ -162,6 +183,9 @@ in {
                 }
                 // optionalAttrs (isDerivation attrs.init || isPath attrs.init) {
                   init = lib.generators.mkLuaInline ''dofile "${attrs.init}"'';
+                }
+                // optionalAttrs (isString attrs.init) {
+                  init = lib.generators.mkLuaInline attrs.init;
                 }
                 // optionalAttrs (isBool attrs.config) {
                   inherit (attrs) config;
@@ -177,8 +201,12 @@ in {
                   opts = attrs.config;
                 }
                 // optionalAttrs (attrs.event != null) {inherit (attrs) event;}
+                // optionalAttrs (attrs.cmd != null) {inherit (attrs) cmd;}
                 // optionalAttrs (attrs.ft != null) {inherit (attrs) ft;}
-                // optionalAttrs (attrs.keys != null) {inherit (attrs) keys;}
+                // optionalAttrs (attrs.keys != null) {
+                  keys = lib.generators.mkLuaInline attrs.keys;
+                }
+                // optionalAttrs (attrs.main != null) {inherit (attrs) main;}
                 // optionalAttrs (attrs.priority != null) {inherit (attrs) priority;};
 
               spec = lib.generators.toLua {} (mapAttrsToList toPlugin' cfg.plugins);
