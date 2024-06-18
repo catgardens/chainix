@@ -1,39 +1,22 @@
 {
   "nodes": {
-    "chaivim": {
+    "chainix": {
       "inputs": {
-        "chaivim": "chaivim_2",
         "flake-parts": "flake-parts",
         "nixpkgs": "nixpkgs",
         "pre-commit-nix": "pre-commit-nix"
       },
       "locked": {
-        "lastModified": 1718636989,
-        "narHash": "sha256-GxrXVgTplZtvVupe2jxL3+7qSJ7HQhNQBUbYCrAsjzM=",
+        "lastModified": 1718712851,
+        "narHash": "sha256-t3/XN3qcV7+HKojuSiHWi26pobxNY6Z3v5I8Ivlzfac=",
         "owner": "isabelroses",
         "repo": "chainix",
-        "rev": "d17e9f22c3d37dd29b8f1f956fdcb42585228e72",
+        "rev": "05df08ffff120e3eb05118b4fab21339dc7505e5",
         "type": "github"
       },
       "original": {
         "owner": "isabelroses",
         "repo": "chainix",
-        "type": "github"
-      }
-    },
-    "chaivim_2": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1718632878,
-        "narHash": "sha256-mI4YT/WEx0+b6SOKuOzTpTanZQsra5o2/pdb6OpVyc8=",
-        "owner": "comfysage",
-        "repo": "chaivim",
-        "rev": "dfd12ca616c630d4d6db14732b207442c889be32",
-        "type": "github"
-      },
-      "original": {
-        "owner": "comfysage",
-        "repo": "chaivim",
         "type": "github"
       }
     },
@@ -92,7 +75,7 @@
     "gitignore": {
       "inputs": {
         "nixpkgs": [
-          "chaivim",
+          "chainix",
           "pre-commit-nix",
           "nixpkgs"
         ]
@@ -113,11 +96,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1718428119,
-        "narHash": "sha256-WdWDpNaq6u1IPtxtYHHWpl5BmabtpmLnMAx0RdJ/vo8=",
+        "lastModified": 1718470082,
+        "narHash": "sha256-u2F0MMYE+Efc+ocruTbtU/wWHuYHWcJafp5zJ++n/YE=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "e6cea36f83499eb4e9cd184c8a8e823296b50ad5",
+        "rev": "3027ba73dfef68eb555fc2fa97aed4e999e74f97",
         "type": "github"
       },
       "original": {
@@ -185,11 +168,11 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1718428119,
-        "narHash": "sha256-WdWDpNaq6u1IPtxtYHHWpl5BmabtpmLnMAx0RdJ/vo8=",
+        "lastModified": 1718470082,
+        "narHash": "sha256-u2F0MMYE+Efc+ocruTbtU/wWHuYHWcJafp5zJ++n/YE=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "e6cea36f83499eb4e9cd184c8a8e823296b50ad5",
+        "rev": "3027ba73dfef68eb555fc2fa97aed4e999e74f97",
         "type": "github"
       },
       "original": {
@@ -222,7 +205,7 @@
     },
     "root": {
       "inputs": {
-        "chaivim": "chaivim",
+        "chainix": "chainix",
         "flake-parts": "flake-parts_2",
         "nixpkgs": "nixpkgs_3"
       }

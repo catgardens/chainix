@@ -18,6 +18,13 @@
             paths = [ pkgs.stylua ];
 
             chaivim = {
+              settings = {
+                ui = {
+                  colorscheme = "evergarden";
+                  transparent_background = true;
+                };
+              };
+
               plugins = {
                 example = {
                   src = ./example;

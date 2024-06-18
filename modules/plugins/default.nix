@@ -122,6 +122,8 @@ in
                 default = pkgs.callPackage ../../pkgs/chaivim.nix { };
               };
 
+              settings = mkOption { type = submodule { freeformType = attrsOf anything; }; };
+
               plugins = mkOption {
                 type = attrsOf (submodule pluginSpec);
                 default = { };
@@ -162,6 +164,11 @@ in
             build = {
               chaivim = {
                 spec = mkOption {
+                  type = str;
+                  internal = true;
+                };
+
+                opts = mkOption {
                   type = str;
                   internal = true;
                 };
@@ -214,6 +221,7 @@ in
                           {
                             inherit name;
                             dir = "${package}";
+                            url = "a required field that isn't imporant to set with nix";
                           }
                           // optionalAttrs (isBool attrs.enabled) { inherit (attrs) enabled; }
                           // optionalAttrs (isString attrs.enabled) { enabled = lib.generators.mkLuaInline attrs.enabled; }
@@ -248,6 +256,7 @@ in
                       in
                       {
                         spec = lib.generators.toLua { } (mapAttrsToList toPlugin' allPlugins);
+                        opts = lib.generators.toLua { } cfg.settings;
                       };
 
                     plugins =
@@ -259,7 +268,8 @@ in
                           allowSubstitutes = false;
                           text = ''
                             vim.opt.rtp:prepend "${cfg.package}"
-                            require("core").setup({inputs = ${build.chaivim.spec}}, {core = {}})
+                            local config = vim.tbl_deep_extend('force', {inputs = ${build.chaivim.spec}}, ${build.chaivim.opts})
+                            require("core").setup(config, {core = {}})
                           '';
                         }
                         ''
