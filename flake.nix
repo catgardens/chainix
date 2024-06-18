@@ -26,6 +26,13 @@
             default.program = pkgs.writeShellApplication {
               name = "example";
               text = ''
+                nix run ./example
+              '';
+            };
+
+            test.program = pkgs.writeShellApplication {
+              name = "example";
+              text = ''
                 nix run ./example --override-input chainix path:.
               '';
             };
