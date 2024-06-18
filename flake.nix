@@ -31,7 +31,7 @@
             };
 
             test.program = pkgs.writeShellApplication {
-              name = "example";
+              name = "example-local";
               text = ''
                 nix run ./example --override-input chainix path:.
               '';
