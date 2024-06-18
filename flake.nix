@@ -22,6 +22,15 @@
       perSystem =
         { pkgs, config, ... }:
         {
+          apps = {
+            default.program = pkgs.writeShellApplication {
+              name = "example";
+              text = ''
+                nix run ./example --override-input chainix path:.
+              '';
+            };
+          };
+
           devShells.default = pkgs.mkShell {
             name = "neovim.nix";
             shellHook = config.pre-commit.installationScript;

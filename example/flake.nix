@@ -21,7 +21,7 @@
               settings = {
                 ui = {
                   colorscheme = "evergarden";
-                  transparent_background = true;
+                  # transparent_background = true;
                 };
               };
 
