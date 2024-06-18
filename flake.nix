@@ -26,14 +26,28 @@
             default.program = pkgs.writeShellApplication {
               name = "example";
               text = ''
-                nix run ./example
+                nix run ./examples/defaults
+              '';
+            };
+
+            custom.program = pkgs.writeShellApplication {
+              name = "example-custom";
+              text = ''
+                nix run ./examples/custom
               '';
             };
 
             test.program = pkgs.writeShellApplication {
               name = "example-local";
               text = ''
-                nix run ./example --override-input chainix path:.
+                nix run ./examples/defaults --override-input chainix path:.
+              '';
+            };
+
+            test-custom.program = pkgs.writeShellApplication {
+              name = "example-custom";
+              text = ''
+                nix run ./examples/custom --override-input chainix path:.
               '';
             };
           };

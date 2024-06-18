@@ -26,7 +26,9 @@ jobs:
         run: nix run github:berberman/nvfetcher
 
       - name: update lockfile
-        run: cd example ; nix flake update
+        run: |
+          cd examples/custom ; nix flake update
+          cd ../defaults ; nix flake update
 
       - name: Commit and push
         uses: stefanzweifel/git-auto-commit-action@v5
