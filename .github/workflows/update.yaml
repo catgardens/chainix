@@ -1,0 +1,36 @@
+name: Update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-example:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@main
+        with:
+          logger: pretty
+
+      - name: update lockfile
+        run: nix flake update
+
+      - name: Update nvfetcher
+        run: nix run github:berberman/nvfetcher
+
+      - name: update lockfile
+        run: cd example ; nix flake update
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update"
+          push_options: "--force"
+          commit_user_name: GitHub Actions

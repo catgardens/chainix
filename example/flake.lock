@@ -7,11 +7,11 @@
         "pre-commit-nix": "pre-commit-nix"
       },
       "locked": {
-        "lastModified": 1718712851,
-        "narHash": "sha256-t3/XN3qcV7+HKojuSiHWi26pobxNY6Z3v5I8Ivlzfac=",
+        "lastModified": 1718715460,
+        "narHash": "sha256-jemMYebfnLA9hDqf5fV/+uRIdFTAnxn8BsblkP6L6aU=",
         "owner": "isabelroses",
         "repo": "chainix",
-        "rev": "05df08ffff120e3eb05118b4fab21339dc7505e5",
+        "rev": "045af5f3bd826693d721ebf3bf75f35de222144a",
         "type": "github"
       },
       "original": {

@@ -6,9 +6,9 @@
   };
 
   outputs =
-    { flake-parts, chainix, ... }@inputs:
+    { flake-parts, ... }@inputs:
     flake-parts.lib.mkFlake { inherit inputs; } {
-      imports = [ chainix.flakeModule ];
+      imports = [ inputs.chainix.flakeModule ];
 
       systems = [ "x86_64-linux" ];
       perSystem =

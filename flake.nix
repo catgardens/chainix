@@ -22,22 +22,6 @@
       perSystem =
         { pkgs, config, ... }:
         {
-          apps = {
-            check.program = pkgs.writeShellApplication {
-              name = "check";
-              text = ''
-                nix run ./example#test
-              '';
-            };
-
-            check-local.program = pkgs.writeShellApplication {
-              name = "check-local";
-              text = ''
-                nix run --override-input chainix path:./. ./example#test
-              '';
-            };
-          };
-
           devShells.default = pkgs.mkShell {
             name = "neovim.nix";
             shellHook = config.pre-commit.installationScript;
