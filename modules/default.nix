@@ -41,8 +41,8 @@ in
 {
   imports = [
     { _module.args.neovim-lib = import ./lib.nix { inherit lib; }; }
-    ./neovim
-    ./plugins
+    ./init.nix
+    ./neovim.nix
   ];
 
   options = {

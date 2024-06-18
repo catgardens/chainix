@@ -1,9 +1,40 @@
 { lib, flake-parts-lib, ... }:
-with lib;
 let
   inherit (flake-parts-lib) mkPerSystemOption;
 
-  pluginSpec = with types; {
+  inherit (lib.options) mkOption;
+  inherit (lib.lists) optional flatten;
+  inherit (lib.modules) mkAfter;
+  inherit (lib.generators) toLua;
+  inherit (builtins)
+    isBool
+    isPath
+    isAttrs
+    isString
+    ;
+  inherit (lib.types)
+    int
+    str
+    path
+    bool
+    attrs
+    oneOf
+    nullOr
+    listOf
+    package
+    attrsOf
+    anything
+    submodule
+    ;
+  inherit (lib.attrsets)
+    mapAttrs
+    attrValues
+    isDerivation
+    optionalAttrs
+    mapAttrsToList
+    ;
+
+  pluginSpec = {
     options = {
       enabled = mkOption {
         type = nullOr (oneOf [
@@ -110,12 +141,12 @@ in
         cfg = config.neovim.chaivim;
       in
       {
-        options = with types; {
+        options = {
           neovim = {
             chaivim = {
               package = mkOption {
                 type = package;
-                default = pkgs.callPackage ../../pkgs/chaivim.nix { };
+                default = pkgs.callPackage ../pkgs/chaivim.nix { };
               };
 
               config = mkOption {
@@ -157,7 +188,7 @@ in
                       priority = null;
                       paths = [ ];
                       cpath = null;
-                    }) (pkgs.callPackage ../../_sources/generated.nix { }))
+                    }) (pkgs.callPackage ../_sources/generated.nix { }))
                     [
                       "override"
                       "overrideDerivation"
@@ -264,9 +295,9 @@ in
                           // optionalAttrs (attrs.priority != null) { inherit (attrs) priority; };
                       in
                       {
-                        spec = lib.generators.toLua { } (mapAttrsToList toPlugin' allPlugins);
-                        config = lib.generators.toLua { } cfg.config;
-                        modules = lib.generators.toLua { } cfg.modules;
+                        spec = toLua { } (mapAttrsToList toPlugin' allPlugins);
+                        config = toLua { } cfg.config;
+                        modules = toLua { } cfg.modules;
                       };
 
                     plugins =
@@ -292,7 +323,7 @@ in
                             echo -n "$text" > "$target"
                           fi
 
-                          stylua --config-path ${../../stylua.toml} $target
+                          stylua --config-path ${../stylua.toml} $target
                         '';
                   };
 

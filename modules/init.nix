@@ -1,7 +1,11 @@
 { lib, flake-parts-lib, ... }:
-with lib;
 let
   inherit (flake-parts-lib) mkPerSystemOption;
+
+  inherit (lib.strings) makeBinPath;
+  inherit (lib.options) mkOption mkPackageOption;
+  inherit (lib.types) package;
+  inherit (lib.lists) unique;
 
   mkInitLua =
     { config, pkgs }:
@@ -19,7 +23,7 @@ in
     perSystem = mkPerSystemOption (
       { pkgs, config, ... }:
       {
-        options = with types; {
+        options = {
           neovim = {
             package = mkPackageOption pkgs "neovim" { };
             build = {
