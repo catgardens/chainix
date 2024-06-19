@@ -27,7 +27,7 @@ jobs:
 
       - name: update lockfile
         run: |
-          cd examples/custom ; nix flake update
+          cd examples/custom ; nix flake update ; cd -
           cd examples/defaults ; nix flake update
 
       - name: Commit and push
