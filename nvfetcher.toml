@@ -1,7 +1,6 @@
 [chaivim]
 fetch.github = 'comfysage/chaivim'
 src.git = 'https://github.com/comfysage/chaivim'
-src.branch = 'rework/flake'
 
 [keymaps]
 fetch.github = 'comfysage/keymaps.nvim'
