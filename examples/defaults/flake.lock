@@ -7,11 +7,11 @@
         "pre-commit-nix": "pre-commit-nix"
       },
       "locked": {
-        "lastModified": 1719621066,
-        "narHash": "sha256-Am93KUUgGzn3qLVeygyCUGaTreL8zececfTvP+2U/Y4=",
+        "lastModified": 1719707713,
+        "narHash": "sha256-o+MDxeaiwiJpgAvN/T5vHLLclh7iSkP7rn4Ql2d6efU=",
         "owner": "isabelroses",
         "repo": "chainix",
-        "rev": "e4652aec8e4067b17f4026848fdea9d926519bed",
+        "rev": "2db0fce51cbe14db8f76485445e16575236fdb1a",
         "type": "github"
       },
       "original": {
@@ -59,11 +59,11 @@
         "nixpkgs-lib": "nixpkgs-lib_2"
       },
       "locked": {
-        "lastModified": 1717285511,
-        "narHash": "sha256-iKzJcpdXih14qYVcZ9QC9XuZYnPc6T8YImb6dX166kw=",
+        "lastModified": 1719745305,
+        "narHash": "sha256-xwgjVUpqSviudEkpQnioeez1Uo2wzrsMaJKJClh+Bls=",
         "owner": "hercules-ci",
         "repo": "flake-parts",
-        "rev": "2a55567fcf15b1b1c7ed712a2c6fadaec7412ea8",
+        "rev": "c3c5ecc05edc7dafba779c6c1a61cd08ac6583e9",
         "type": "github"
       },
       "original": {
