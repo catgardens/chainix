@@ -23,7 +23,7 @@
             };
 
             modules = {
-              core = [
+              ch = [
                 {
                   name = "options";
                   opts = {
