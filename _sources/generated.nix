@@ -171,15 +171,15 @@
   };
   nvim-cmp = {
     pname = "nvim-cmp";
-    version = "a110e12d0b58eefcf5b771f533fc2cf3050680ac";
+    version = "7e348da6e5085ac447144a2ef4b637220ba27209";
     src = fetchFromGitHub {
       owner = "hrsh7th";
       repo = "nvim-cmp";
-      rev = "a110e12d0b58eefcf5b771f533fc2cf3050680ac";
+      rev = "7e348da6e5085ac447144a2ef4b637220ba27209";
       fetchSubmodules = false;
-      sha256 = "sha256-7tEfEjWH5pneI10jLYpenoysRQPa2zPGLTNcbMX3x2I=";
+      sha256 = "sha256-BErYClghaENAuaLkJqys2JWLQfdk77lQ4HuA+Jao+iM=";
     };
-    date = "2024-06-08";
+    date = "2024-07-14";
   };
   plenary = {
     pname = "plenary";
@@ -255,27 +255,27 @@
   };
   trouble = {
     pname = "trouble";
-    version = "03c1fbf518bef683422a3be9643c3da190903488";
+    version = "2946ce52869d3121637b962c31b1aab48d74a3c9";
     src = fetchFromGitHub {
       owner = "folke";
       repo = "trouble.nvim";
-      rev = "03c1fbf518bef683422a3be9643c3da190903488";
+      rev = "2946ce52869d3121637b962c31b1aab48d74a3c9";
       fetchSubmodules = false;
-      sha256 = "sha256-WlO12P0cncgruSNnL7qKMt5LbZG6o+WGZ0J+PCEDIGc=";
+      sha256 = "sha256-0aYlu2qJMPDmiFX/Bcr0uDvHL6ENfMStCYZNBV/yyLU=";
     };
-    date = "2024-07-13";
+    date = "2024-07-14";
   };
   whichkey = {
     pname = "whichkey";
-    version = "30cf839c82bcc0f90be951f8834c256c1cdc295c";
+    version = "f0e99d48f33193526fe66e699174670d5856b6b8";
     src = fetchFromGitHub {
       owner = "folke";
       repo = "which-key.nvim";
-      rev = "30cf839c82bcc0f90be951f8834c256c1cdc295c";
+      rev = "f0e99d48f33193526fe66e699174670d5856b6b8";
       fetchSubmodules = false;
-      sha256 = "sha256-MTtLcPqSZMlVeskaVbw9770YjfBlbwLMGEicS8HAzPk=";
+      sha256 = "sha256-u+MxxJ/Rpv05mgs7x0c6E2Al80SXfITn6MG8LoRcn/k=";
     };
-    date = "2024-07-13";
+    date = "2024-07-14";
   };
   yosu = {
     pname = "yosu";
