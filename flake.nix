@@ -3,14 +3,21 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
-    flake-parts.url = "github:hercules-ci/flake-parts";
-    pre-commit-nix.url = "github:cachix/pre-commit-hooks.nix";
+    flake-parts = {
+      url = "github:hercules-ci/flake-parts";
+      inputs.nixpkgs-lib.follows = "nixpkgs";
+    };
+    git-hooks = {
+      url = "github:cachix/git-hooks.nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.nixpkgs-stable.follows = "";
+    };
   };
 
   outputs =
     { self, flake-parts, ... }@inputs:
     flake-parts.lib.mkFlake { inherit self inputs; } {
-      imports = [ inputs.pre-commit-nix.flakeModule ];
+      imports = if inputs.git-hooks ? flakeModule then [ inputs.git-hooks.flakeModule ] else [ ];
 
       flake.flakeModule.imports = [ ./modules ];
 
@@ -63,7 +70,8 @@
             utils = pkgs.callPackage ./pkgs/utils.nix { };
             chaivim = pkgs.callPackage ./pkgs/chaivim.nix { };
           };
-
+        }
+        // inputs.nixpkgs.lib.optionalAttrs (inputs.git-hooks ? flakeModule) {
           pre-commit.settings.hooks = {
             nixfmt.enable = true;
             stylua.enable = true;
