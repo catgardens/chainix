@@ -111,15 +111,15 @@
   };
   lspconfig = {
     pname = "lspconfig";
-    version = "d88ae6623fef09251e3aa20001bb761686eae730";
+    version = "bb682c167a0878338b4313b55538953d1c039085";
     src = fetchFromGitHub {
       owner = "neovim";
       repo = "nvim-lspconfig";
-      rev = "d88ae6623fef09251e3aa20001bb761686eae730";
+      rev = "bb682c167a0878338b4313b55538953d1c039085";
       fetchSubmodules = false;
-      sha256 = "sha256-TGW+Zfr6JsYJhYIFSA1PR+T1wm1+xPIK96UULCcMbT8=";
+      sha256 = "sha256-QfU7Xywjqw5S55gOBtQ10S5fK7wyFqhKzBwqCRoejQQ=";
     };
-    date = "2024-09-11";
+    date = "2024-09-12";
   };
   lualine = {
     pname = "lualine";
@@ -135,27 +135,27 @@
   };
   luasnip = {
     pname = "luasnip";
-    version = "45db5addf8d0a201e1cf247cae4cdce605ad3768";
+    version = "e808bee352d1a6fcf902ca1a71cee76e60e24071";
     src = fetchFromGitHub {
       owner = "L3MON4D3";
       repo = "LuaSnip";
-      rev = "45db5addf8d0a201e1cf247cae4cdce605ad3768";
+      rev = "e808bee352d1a6fcf902ca1a71cee76e60e24071";
       fetchSubmodules = false;
-      sha256 = "sha256-1b9hT6+wUoH31JUjWHaBOJMg2juMxoA1vPfme3zBEYg=";
+      sha256 = "sha256-nkaa1NGOI28Et2QitQB+Spv+J42QVdHE1oywteLcJJw=";
     };
-    date = "2024-08-28";
+    date = "2024-09-12";
   };
   mini = {
     pname = "mini";
-    version = "f0d6e89515c6b055c20d257da717bd30211532f1";
+    version = "5c72e4d74e05f50325641e5fa921fca97a24cb13";
     src = fetchFromGitHub {
       owner = "echasnovski";
       repo = "mini.nvim";
-      rev = "f0d6e89515c6b055c20d257da717bd30211532f1";
+      rev = "5c72e4d74e05f50325641e5fa921fca97a24cb13";
       fetchSubmodules = false;
-      sha256 = "sha256-9s6yd1lQfcsLnVQgDUcPIFW3UDKAwtQAicHh3YvzIDw=";
+      sha256 = "sha256-K4eULsc5QaIicX+SK1wBdMLGjcwMlGQfW0h5GfzobBs=";
     };
-    date = "2024-09-10";
+    date = "2024-09-12";
   };
   null = {
     pname = "null";
@@ -195,13 +195,13 @@
   };
   telescope = {
     pname = "telescope";
-    version = "f8985648e034f4c0a91c008c4bf98e321da8e6b8";
+    version = "1398e11b06f67276881ed44dcefda5050d8ecd0c";
     src = fetchFromGitHub {
       owner = "nvim-telescope";
       repo = "telescope.nvim";
-      rev = "f8985648e034f4c0a91c008c4bf98e321da8e6b8";
+      rev = "1398e11b06f67276881ed44dcefda5050d8ecd0c";
       fetchSubmodules = false;
-      sha256 = "sha256-YuIVHhF58wN0JyRC53+GuhBqrBrtsT8uuQigjW2inPs=";
+      sha256 = "sha256-HaGv14jdHiWQ1FEsIpq1y1kr+G/OCM9/euVtmAahTRs=";
     };
     date = "2024-09-12";
   };
@@ -243,15 +243,15 @@
   };
   treesitter = {
     pname = "treesitter";
-    version = "b6a6d8997c46dc15682020ce4fddc5a89ee1ac0d";
+    version = "4af16a10b7f1e79275f712a1c6dcf725d301a303";
     src = fetchFromGitHub {
       owner = "nvim-treesitter";
       repo = "nvim-treesitter";
-      rev = "b6a6d8997c46dc15682020ce4fddc5a89ee1ac0d";
+      rev = "4af16a10b7f1e79275f712a1c6dcf725d301a303";
       fetchSubmodules = false;
-      sha256 = "sha256-5DL7qk7MTXsdwN6xkcgaxjwb9zbUlf2MDif+CDkCuXI=";
+      sha256 = "sha256-jZNLcTyaBSBX+OdOg3k0Ox9BMi4hFAhkF/e2494DA/Y=";
     };
-    date = "2024-09-11";
+    date = "2024-09-12";
   };
   trouble = {
     pname = "trouble";
