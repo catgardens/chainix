@@ -123,15 +123,15 @@
   };
   lualine = {
     pname = "lualine";
-    version = "b431d228b7bbcdaea818bdc3e25b8cdbe861f056";
+    version = "640260d7c2d98779cab89b1e7088ab14ea354a02";
     src = fetchFromGitHub {
       owner = "nvim-lualine";
       repo = "lualine.nvim";
-      rev = "b431d228b7bbcdaea818bdc3e25b8cdbe861f056";
+      rev = "640260d7c2d98779cab89b1e7088ab14ea354a02";
       fetchSubmodules = false;
-      sha256 = "sha256-gCm7m96PkZyrgjmt7Efc+NMZKStAq1zr7JRCYOgGDuE=";
+      sha256 = "sha256-BLqmjS24Tsgz0uAvEdn8tAiKkhlvk0Iiylq93+uxqW0=";
     };
-    date = "2024-08-12";
+    date = "2024-11-01";
   };
   luasnip = {
     pname = "luasnip";
@@ -243,15 +243,15 @@
   };
   treesitter = {
     pname = "treesitter";
-    version = "92d2501d698e0fe855bd222540f9648890fab6c7";
+    version = "b065b59196edb10a7c29bfbed88cc225b7e3de37";
     src = fetchFromGitHub {
       owner = "nvim-treesitter";
       repo = "nvim-treesitter";
-      rev = "92d2501d698e0fe855bd222540f9648890fab6c7";
+      rev = "b065b59196edb10a7c29bfbed88cc225b7e3de37";
       fetchSubmodules = false;
-      sha256 = "sha256-5pcuvqg9/MebKhC9XYfupzBzIZjf6TGT1qiswsGtEag=";
+      sha256 = "sha256-Xx4rJQyVMvA4BYnmL6KO5NxDZ4AXDwwbiuxMW3EZh1w=";
     };
-    date = "2024-10-31";
+    date = "2024-11-01";
   };
   trouble = {
     pname = "trouble";
