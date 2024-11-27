@@ -7,11 +7,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1732495291,
-        "narHash": "sha256-EMInK0XxrBJw3ggJHgb9ywWT5qFQb8QqsgQMRThqRpI=",
+        "lastModified": 1732581622,
+        "narHash": "sha256-/UGDveF66w6q4OWCOxh8BKdXaFldNAQ0qXcU9sCqiwM=",
         "owner": "isabelroses",
         "repo": "chainix",
-        "rev": "974744800372622e4739b06e01514adf6731631a",
+        "rev": "0dbafa3a244c2b4bd394a11e1d7be4237e404bab",
         "type": "github"
       },
       "original": {
