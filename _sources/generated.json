@@ -190,7 +190,7 @@
     },
     "lspconfig": {
         "cargoLocks": null,
-        "date": "2024-12-21",
+        "date": "2024-12-22",
         "extract": null,
         "name": "lspconfig",
         "passthru": null,
@@ -202,12 +202,12 @@
             "name": null,
             "owner": "neovim",
             "repo": "nvim-lspconfig",
-            "rev": "f1405c1ea5d7a1051a8ced3110d7cf3b8524041b",
-            "sha256": "sha256-czHhPjLusCFm37U9XSVGqjv/f3toW43Ii+SAK2Pzjqc=",
+            "rev": "b54abeb8b90af1cb4592ce937ee95ed8cb457801",
+            "sha256": "sha256-cZYB5HT2eslY+zmWQUfBZJiJGESvttIV8JHWG56fGTw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "f1405c1ea5d7a1051a8ced3110d7cf3b8524041b"
+        "version": "b54abeb8b90af1cb4592ce937ee95ed8cb457801"
     },
     "lualine": {
         "cargoLocks": null,
@@ -253,7 +253,7 @@
     },
     "mini": {
         "cargoLocks": null,
-        "date": "2024-12-20",
+        "date": "2024-12-22",
         "extract": null,
         "name": "mini",
         "passthru": null,
@@ -265,12 +265,12 @@
             "name": null,
             "owner": "echasnovski",
             "repo": "mini.nvim",
-            "rev": "4228f166ee9db3e910eea1915e2d3683028add47",
-            "sha256": "sha256-99S2DL+Q0p7AuhZnYTDNulzk9b0aokCOVBcNqYkQMTk=",
+            "rev": "7b210cc5207e36f562f6c1e83200d5dfc0a4451d",
+            "sha256": "sha256-55tFjRJa4lXzg+Thr3Kbwz7MQwvCivCVNOYXboAk3FI=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "4228f166ee9db3e910eea1915e2d3683028add47"
+        "version": "7b210cc5207e36f562f6c1e83200d5dfc0a4451d"
     },
     "null": {
         "cargoLocks": null,
@@ -421,7 +421,7 @@
     },
     "treesitter": {
         "cargoLocks": null,
-        "date": "2024-12-21",
+        "date": "2024-12-22",
         "extract": null,
         "name": "treesitter",
         "passthru": null,
@@ -433,12 +433,12 @@
             "name": null,
             "owner": "nvim-treesitter",
             "repo": "nvim-treesitter",
-            "rev": "2a75d8065cff33216e106b651eb0f58b90375717",
-            "sha256": "sha256-+D8P1hYWvsRJOlncXqAgQrFNjeqOoncAQvKawLw1yS8=",
+            "rev": "caba7ef3556079dec03407bcbb290ddc688ea06e",
+            "sha256": "sha256-LWgLxZobaFhm3UQZm5+6tlEULeG29SbER/khieQPJPI=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "2a75d8065cff33216e106b651eb0f58b90375717"
+        "version": "caba7ef3556079dec03407bcbb290ddc688ea06e"
     },
     "trouble": {
         "cargoLocks": null,
