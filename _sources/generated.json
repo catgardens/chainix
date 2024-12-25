@@ -421,7 +421,7 @@
     },
     "treesitter": {
         "cargoLocks": null,
-        "date": "2024-12-23",
+        "date": "2024-12-24",
         "extract": null,
         "name": "treesitter",
         "passthru": null,
@@ -433,12 +433,12 @@
             "name": null,
             "owner": "nvim-treesitter",
             "repo": "nvim-treesitter",
-            "rev": "b4897f5a8453e7efeafb21ff5b2bbdc2e3faf1bd",
-            "sha256": "sha256-zI/TZKvr3CzybdCpZ1xvc/jwgsTmV68fOp7iAQLDnOE=",
+            "rev": "096babebf6daef2a046650883082ed2b3dcc5b67",
+            "sha256": "sha256-NCx6oat6CXDwh/SemyfuS0jo/49EVJWd6CaqSAhhsgY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "b4897f5a8453e7efeafb21ff5b2bbdc2e3faf1bd"
+        "version": "096babebf6daef2a046650883082ed2b3dcc5b67"
     },
     "trouble": {
         "cargoLocks": null,
