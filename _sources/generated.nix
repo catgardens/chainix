@@ -243,15 +243,15 @@
   };
   treesitter = {
     pname = "treesitter";
-    version = "5f78e989243f9fb0fb55e0cf54820920d86dfd30";
+    version = "e947d35bbf919ea88a24c21cb8afa4621e3cf547";
     src = fetchFromGitHub {
       owner = "nvim-treesitter";
       repo = "nvim-treesitter";
-      rev = "5f78e989243f9fb0fb55e0cf54820920d86dfd30";
+      rev = "e947d35bbf919ea88a24c21cb8afa4621e3cf547";
       fetchSubmodules = false;
-      sha256 = "sha256-9A7/2y8ZviLNmu11e6Dx/SyFXLfO82Mnk5LZ8z+1qb4=";
+      sha256 = "sha256-UTBX8PsokYj5YmBu/uYm3X12iWLH4DE7mzJCxVNChcc=";
     };
-    date = "2024-12-31";
+    date = "2025-01-01";
   };
   trouble = {
     pname = "trouble";
