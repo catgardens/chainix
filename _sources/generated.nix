@@ -27,15 +27,15 @@
   };
   evergarden = {
     pname = "evergarden";
-    version = "31f39772562b1c03a970f057cd5cbb8cff1e68fc";
+    version = "0397bb17531c8f9b9bda1d0676c4a290a170bd3b";
     src = fetchFromGitHub {
       owner = "comfysage";
       repo = "evergarden";
-      rev = "31f39772562b1c03a970f057cd5cbb8cff1e68fc";
+      rev = "0397bb17531c8f9b9bda1d0676c4a290a170bd3b";
       fetchSubmodules = false;
-      sha256 = "sha256-4JfdunwFNpWkCnCIG6kZRybBqNbPTJrlPvk/RQgJedM=";
+      sha256 = "sha256-sLedFfotVwVsMh80cwOOTAM6ftCqm618rhOa4zkdoVI=";
     };
-    date = "2025-01-14";
+    date = "2025-01-24";
   };
   fidget = {
     pname = "fidget";
@@ -51,15 +51,15 @@
   };
   gitsigns = {
     pname = "gitsigns";
-    version = "3ec5fbd9202ae3908551c98c4b6c3c05ff7c8e96";
+    version = "d8918f06624dd53b9a82bd0e29c31bcfd541b40d";
     src = fetchFromGitHub {
       owner = "lewis6991";
       repo = "gitsigns.nvim";
-      rev = "3ec5fbd9202ae3908551c98c4b6c3c05ff7c8e96";
+      rev = "d8918f06624dd53b9a82bd0e29c31bcfd541b40d";
       fetchSubmodules = false;
-      sha256 = "sha256-y+675GuLYHiz9jUefWc8aidbUr1iPehLk8/Ll/vW0kQ=";
+      sha256 = "sha256-PXXy1MYcc4v7noqb6A6YOY9f6FidkulZPiZ9nX7xR6Y=";
     };
-    date = "2025-01-23";
+    date = "2025-01-24";
   };
   incline = {
     pname = "incline";
@@ -243,15 +243,15 @@
   };
   treesitter = {
     pname = "treesitter";
-    version = "6587a5886873cce8698a47477224c30578b33a24";
+    version = "51562d44fc6280f92bb9a3d87e7b3cb327377ca5";
     src = fetchFromGitHub {
       owner = "nvim-treesitter";
       repo = "nvim-treesitter";
-      rev = "6587a5886873cce8698a47477224c30578b33a24";
+      rev = "51562d44fc6280f92bb9a3d87e7b3cb327377ca5";
       fetchSubmodules = false;
-      sha256 = "sha256-JhIYrFhmIiweSOYK5bB04akiNrilszUHZS+2ElXrZQE=";
+      sha256 = "sha256-VFmxckPjf4WgDQT51ulvTt945yL1Avoq8zZ8DL1ME60=";
     };
-    date = "2025-01-23";
+    date = "2025-01-24";
   };
   trouble = {
     pname = "trouble";
