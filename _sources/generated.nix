@@ -51,15 +51,15 @@
   };
   gitsigns = {
     pname = "gitsigns";
-    version = "4c40357994f386e72be92a46f41fc1664c84c87d";
+    version = "011dc6718bcebdf92a5336bb0da79189c3afe621";
     src = fetchFromGitHub {
       owner = "lewis6991";
       repo = "gitsigns.nvim";
-      rev = "4c40357994f386e72be92a46f41fc1664c84c87d";
+      rev = "011dc6718bcebdf92a5336bb0da79189c3afe621";
       fetchSubmodules = false;
-      sha256 = "sha256-PIwKEPNAkTiZAr8tncjFakvOWX1D5TOdSiurVZ5AcbQ=";
+      sha256 = "sha256-Rzj8v7iA4cpLwqMaZvBarTOR246ti9l43U6aIjOPceA=";
     };
-    date = "2025-02-20";
+    date = "2025-03-12";
   };
   incline = {
     pname = "incline";
@@ -207,15 +207,15 @@
   };
   telescope_fzf = {
     pname = "telescope_fzf";
-    version = "2a5ceff981501cff8f46871d5402cd3378a8ab6a";
+    version = "1f08ed60cafc8f6168b72b80be2b2ea149813e55";
     src = fetchFromGitHub {
       owner = "nvim-telescope";
       repo = "telescope-fzf-native.nvim";
-      rev = "2a5ceff981501cff8f46871d5402cd3378a8ab6a";
+      rev = "1f08ed60cafc8f6168b72b80be2b2ea149813e55";
       fetchSubmodules = false;
-      sha256 = "sha256-0dGvpN8Vn+aU6j8N0tTD8AOzOAHGemlPAcLKyqlWvlg=";
+      sha256 = "sha256-Zyv8ikxdwoUiDD0zsqLzfhBVOm/nKyJdZpndxXEB6ow=";
     };
-    date = "2025-02-11";
+    date = "2025-03-12";
   };
   telescope_select = {
     pname = "telescope_select";
@@ -243,15 +243,15 @@
   };
   treesitter = {
     pname = "treesitter";
-    version = "cf0eabc16cf32d69f7612d0e023ef210d84cdde6";
+    version = "548ed98f8a0af738d095ef1be5961f41061ed743";
     src = fetchFromGitHub {
       owner = "nvim-treesitter";
       repo = "nvim-treesitter";
-      rev = "cf0eabc16cf32d69f7612d0e023ef210d84cdde6";
+      rev = "548ed98f8a0af738d095ef1be5961f41061ed743";
       fetchSubmodules = false;
-      sha256 = "sha256-JvbsNQ7OdmmkzIJ4XNLNDWjx+NfRA3RsKbgEyMUOrmM=";
+      sha256 = "sha256-YcJqd2hjmUHhBfKGC2IycyUClmqaNV4L8mzJjVfmj3o=";
     };
-    date = "2025-03-11";
+    date = "2025-03-12";
   };
   trouble = {
     pname = "trouble";
