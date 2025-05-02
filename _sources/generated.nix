@@ -147,27 +147,27 @@
   };
   mini = {
     pname = "mini";
-    version = "088d67751584e4168f35bca89bad70ada7ea4636";
+    version = "90ab64f944a5a63a9efebe6735e1f2c6d4db3613";
     src = fetchFromGitHub {
       owner = "echasnovski";
       repo = "mini.nvim";
-      rev = "088d67751584e4168f35bca89bad70ada7ea4636";
+      rev = "90ab64f944a5a63a9efebe6735e1f2c6d4db3613";
       fetchSubmodules = false;
-      sha256 = "sha256-GEnjcVx5Gygh7Vw9N8RrC3yjeYnUGtQpEBTUTzk1BTo=";
+      sha256 = "sha256-WF92rng5gvvD8LDbS+7PpMpSLZ49k4GyR79nYMdU5rE=";
     };
-    date = "2025-04-26";
+    date = "2025-05-01";
   };
   null = {
     pname = "null";
-    version = "78546696d365c4d958351881ff43a8d82ac1ed44";
+    version = "a49f5a79cdb76e0dc1a98899c8598f4db014c5e7";
     src = fetchFromGitHub {
       owner = "nvimtools";
       repo = "none-ls.nvim";
-      rev = "78546696d365c4d958351881ff43a8d82ac1ed44";
+      rev = "a49f5a79cdb76e0dc1a98899c8598f4db014c5e7";
       fetchSubmodules = false;
-      sha256 = "sha256-C/kaKUJu+4OSoZefqtDl1pFwkMufUArdiETlXlPCusI=";
+      sha256 = "sha256-Yg3VpsXhdbz195BHfZ2P+nfn5yrgyXbxjoOPrLvSJnQ=";
     };
-    date = "2025-04-30";
+    date = "2025-05-01";
   };
   nvim-cmp = {
     pname = "nvim-cmp";
