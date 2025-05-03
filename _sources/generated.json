@@ -85,7 +85,7 @@
     },
     "gitsigns": {
         "cargoLocks": null,
-        "date": "2025-04-30",
+        "date": "2025-05-02",
         "extract": null,
         "name": "gitsigns",
         "passthru": null,
@@ -97,12 +97,12 @@
             "name": null,
             "owner": "lewis6991",
             "repo": "gitsigns.nvim",
-            "rev": "ee28ba3e70ecea811b8f6d7b51d81976e94b121c",
-            "sha256": "sha256-tp/ieCpa0Y0crEHW7NwXO+z18H1OIqXWPy2wn20KFZU=",
+            "rev": "1796c7cedfe7e5dd20096c5d7b8b753d8f8d22eb",
+            "sha256": "sha256-Vi8fEEV2MLvv7MlF5dwoxtSfbWX2IAbL7j+0PP6Q9Xc=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "ee28ba3e70ecea811b8f6d7b51d81976e94b121c"
+        "version": "1796c7cedfe7e5dd20096c5d7b8b753d8f8d22eb"
     },
     "incline": {
         "cargoLocks": null,
@@ -190,7 +190,7 @@
     },
     "lspconfig": {
         "cargoLocks": null,
-        "date": "2025-04-30",
+        "date": "2025-05-02",
         "extract": null,
         "name": "lspconfig",
         "passthru": null,
@@ -202,12 +202,12 @@
             "name": null,
             "owner": "neovim",
             "repo": "nvim-lspconfig",
-            "rev": "94d0fec9135719e046903bbbbf8f39e3d3436d4e",
-            "sha256": "sha256-V8qxiPdJMCbI3wMnT9sA37w5v+1BsW2o6/c6e5u66/I=",
+            "rev": "46434074f188e6bfccf9d9153dd8be6b1381498b",
+            "sha256": "sha256-99/CwzGmRp16r5NGtgPiPXO+nMOGOR/IfWgbLnewI0A=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "94d0fec9135719e046903bbbbf8f39e3d3436d4e"
+        "version": "46434074f188e6bfccf9d9153dd8be6b1381498b"
     },
     "lualine": {
         "cargoLocks": null,
@@ -232,7 +232,7 @@
     },
     "luasnip": {
         "cargoLocks": null,
-        "date": "2025-01-04",
+        "date": "2025-05-02",
         "extract": null,
         "name": "luasnip",
         "passthru": null,
@@ -244,12 +244,12 @@
             "name": null,
             "owner": "L3MON4D3",
             "repo": "LuaSnip",
-            "rev": "c9b9a22904c97d0eb69ccb9bab76037838326817",
-            "sha256": "sha256-3ecm5SDTcSOh256xSQPHhddQfMpepiEIpv58fHXrVg0=",
+            "rev": "7351d673f430e89f11962dc45b7360d6a0a26d2d",
+            "sha256": "sha256-OFg8Euz0clWnU8swjCejpSQa1TNjHHHZwPeykbQWpDU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "c9b9a22904c97d0eb69ccb9bab76037838326817"
+        "version": "7351d673f430e89f11962dc45b7360d6a0a26d2d"
     },
     "mini": {
         "cargoLocks": null,
