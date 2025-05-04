@@ -111,15 +111,15 @@
   };
   lspconfig = {
     pname = "lspconfig";
-    version = "46434074f188e6bfccf9d9153dd8be6b1381498b";
+    version = "1b801f68d09e70e59e6dd967b663b6d84ee3e87d";
     src = fetchFromGitHub {
       owner = "neovim";
       repo = "nvim-lspconfig";
-      rev = "46434074f188e6bfccf9d9153dd8be6b1381498b";
+      rev = "1b801f68d09e70e59e6dd967b663b6d84ee3e87d";
       fetchSubmodules = false;
-      sha256 = "sha256-99/CwzGmRp16r5NGtgPiPXO+nMOGOR/IfWgbLnewI0A=";
+      sha256 = "sha256-4xW/6lHadw5VSFAi75ymH9Uamj5i3f3kilhOD3QZdms=";
     };
-    date = "2025-05-02";
+    date = "2025-05-03";
   };
   lualine = {
     pname = "lualine";
@@ -135,39 +135,39 @@
   };
   luasnip = {
     pname = "luasnip";
-    version = "7351d673f430e89f11962dc45b7360d6a0a26d2d";
+    version = "0d469d83bf4fd90e3420998159012859d694152b";
     src = fetchFromGitHub {
       owner = "L3MON4D3";
       repo = "LuaSnip";
-      rev = "7351d673f430e89f11962dc45b7360d6a0a26d2d";
+      rev = "0d469d83bf4fd90e3420998159012859d694152b";
       fetchSubmodules = false;
-      sha256 = "sha256-OFg8Euz0clWnU8swjCejpSQa1TNjHHHZwPeykbQWpDU=";
+      sha256 = "sha256-HBjd3T9wR+JKcY64OIZk4LJJsCABvp99RjUWYH4AN3U=";
     };
-    date = "2025-05-02";
+    date = "2025-05-03";
   };
   mini = {
     pname = "mini";
-    version = "90ab64f944a5a63a9efebe6735e1f2c6d4db3613";
+    version = "ee23e1abc206efc6d6cce19ec8c0a3da7a897035";
     src = fetchFromGitHub {
       owner = "echasnovski";
       repo = "mini.nvim";
-      rev = "90ab64f944a5a63a9efebe6735e1f2c6d4db3613";
+      rev = "ee23e1abc206efc6d6cce19ec8c0a3da7a897035";
       fetchSubmodules = false;
-      sha256 = "sha256-WF92rng5gvvD8LDbS+7PpMpSLZ49k4GyR79nYMdU5rE=";
+      sha256 = "sha256-A3FIyfy/3VUBMPfWd6PLaqAhOAOA5ava0nc4Z9JCKCI=";
     };
-    date = "2025-05-01";
+    date = "2025-05-03";
   };
   null = {
     pname = "null";
-    version = "a49f5a79cdb76e0dc1a98899c8598f4db014c5e7";
+    version = "7c493a266a6b1ed419f8a2e431651bc15b10df27";
     src = fetchFromGitHub {
       owner = "nvimtools";
       repo = "none-ls.nvim";
-      rev = "a49f5a79cdb76e0dc1a98899c8598f4db014c5e7";
+      rev = "7c493a266a6b1ed419f8a2e431651bc15b10df27";
       fetchSubmodules = false;
-      sha256 = "sha256-Yg3VpsXhdbz195BHfZ2P+nfn5yrgyXbxjoOPrLvSJnQ=";
+      sha256 = "sha256-rUNZLkmcbkkWnlY0A8UpL+0zPAs3FYP8mKkL0k3Bpc4=";
     };
-    date = "2025-05-01";
+    date = "2025-05-03";
   };
   nvim-cmp = {
     pname = "nvim-cmp";
