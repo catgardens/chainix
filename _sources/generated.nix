@@ -51,15 +51,15 @@
   };
   gitsigns = {
     pname = "gitsigns";
-    version = "1796c7cedfe7e5dd20096c5d7b8b753d8f8d22eb";
+    version = "7ce11abbb8b038a9de4fb6f75d8289c58d81aed7";
     src = fetchFromGitHub {
       owner = "lewis6991";
       repo = "gitsigns.nvim";
-      rev = "1796c7cedfe7e5dd20096c5d7b8b753d8f8d22eb";
+      rev = "7ce11abbb8b038a9de4fb6f75d8289c58d81aed7";
       fetchSubmodules = false;
-      sha256 = "sha256-Vi8fEEV2MLvv7MlF5dwoxtSfbWX2IAbL7j+0PP6Q9Xc=";
+      sha256 = "sha256-bSjzmRKkGOAnlJbppD4mWhXEfyjt0ji3PJAObvMRwZw=";
     };
-    date = "2025-05-02";
+    date = "2025-05-04";
   };
   incline = {
     pname = "incline";
@@ -111,15 +111,15 @@
   };
   lspconfig = {
     pname = "lspconfig";
-    version = "1b801f68d09e70e59e6dd967b663b6d84ee3e87d";
+    version = "4bc481b6f0c0cf3671fc894debd0e00347089a4e";
     src = fetchFromGitHub {
       owner = "neovim";
       repo = "nvim-lspconfig";
-      rev = "1b801f68d09e70e59e6dd967b663b6d84ee3e87d";
+      rev = "4bc481b6f0c0cf3671fc894debd0e00347089a4e";
       fetchSubmodules = false;
-      sha256 = "sha256-4xW/6lHadw5VSFAi75ymH9Uamj5i3f3kilhOD3QZdms=";
+      sha256 = "sha256-l1yocpqchfL6xjBK+VERI7ezi0Qx5dfCOkCYjNoNsf4=";
     };
-    date = "2025-05-03";
+    date = "2025-05-04";
   };
   lualine = {
     pname = "lualine";
@@ -135,27 +135,27 @@
   };
   luasnip = {
     pname = "luasnip";
-    version = "0d469d83bf4fd90e3420998159012859d694152b";
+    version = "7d08b780201a4a7c9c117a3855492fdd6318380f";
     src = fetchFromGitHub {
       owner = "L3MON4D3";
       repo = "LuaSnip";
-      rev = "0d469d83bf4fd90e3420998159012859d694152b";
+      rev = "7d08b780201a4a7c9c117a3855492fdd6318380f";
       fetchSubmodules = false;
-      sha256 = "sha256-HBjd3T9wR+JKcY64OIZk4LJJsCABvp99RjUWYH4AN3U=";
+      sha256 = "sha256-yAIldXszYLq6cCCPz7Fv9d+oDKWIsjZVg8GSiP+wvn8=";
     };
-    date = "2025-05-03";
+    date = "2025-05-04";
   };
   mini = {
     pname = "mini";
-    version = "ee23e1abc206efc6d6cce19ec8c0a3da7a897035";
+    version = "473cdbff498ed120f1768c75ef65fa42859aa14f";
     src = fetchFromGitHub {
       owner = "echasnovski";
       repo = "mini.nvim";
-      rev = "ee23e1abc206efc6d6cce19ec8c0a3da7a897035";
+      rev = "473cdbff498ed120f1768c75ef65fa42859aa14f";
       fetchSubmodules = false;
-      sha256 = "sha256-A3FIyfy/3VUBMPfWd6PLaqAhOAOA5ava0nc4Z9JCKCI=";
+      sha256 = "sha256-OGqFFH+l+PgKOJQrlBzmm57bt7yDF6nK6zplWwrTyao=";
     };
-    date = "2025-05-03";
+    date = "2025-05-04";
   };
   null = {
     pname = "null";
