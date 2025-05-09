@@ -253,7 +253,7 @@
     },
     "mini": {
         "cargoLocks": null,
-        "date": "2025-05-06",
+        "date": "2025-05-08",
         "extract": null,
         "name": "mini",
         "passthru": null,
@@ -265,12 +265,12 @@
             "name": null,
             "owner": "echasnovski",
             "repo": "mini.nvim",
-            "rev": "6105b69d79fef0afed5ed576081b1997ef2b4be1",
-            "sha256": "sha256-30emksF0qWT9kbwEpxr7tX7J4Ur0QeSBkTBWBfMJpgM=",
+            "rev": "de46b3eefb810e1b251f4b19ed678d02cb08ce3f",
+            "sha256": "sha256-DJ7hTNmz38hgyeOQPMr/ZZ9i9gakofbrXFY2eP9lWcM=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "6105b69d79fef0afed5ed576081b1997ef2b4be1"
+        "version": "de46b3eefb810e1b251f4b19ed678d02cb08ce3f"
     },
     "null": {
         "cargoLocks": null,
@@ -484,7 +484,7 @@
     },
     "yosu": {
         "cargoLocks": null,
-        "date": "2024-06-17",
+        "date": "2025-05-08",
         "extract": null,
         "name": "yosu",
         "passthru": null,
@@ -496,11 +496,11 @@
             "name": null,
             "owner": "comfysage",
             "repo": "yosu.nvim",
-            "rev": "553c8c526975c5107efde17950417f3738fbb72d",
-            "sha256": "sha256-bic9o81gkDLFV2K1HeSMg4xHofOzqebfvSqHl41XHps=",
+            "rev": "cc7ce85eb229e78a854a24653528d836974096f9",
+            "sha256": "sha256-akV/CI8qdlMhJrAXkwU5V5bAZcgUWu30TTQau2bcln8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "553c8c526975c5107efde17950417f3738fbb72d"
+        "version": "cc7ce85eb229e78a854a24653528d836974096f9"
     }
 }

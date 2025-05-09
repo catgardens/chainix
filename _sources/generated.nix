@@ -147,15 +147,15 @@
   };
   mini = {
     pname = "mini";
-    version = "6105b69d79fef0afed5ed576081b1997ef2b4be1";
+    version = "de46b3eefb810e1b251f4b19ed678d02cb08ce3f";
     src = fetchFromGitHub {
       owner = "echasnovski";
       repo = "mini.nvim";
-      rev = "6105b69d79fef0afed5ed576081b1997ef2b4be1";
+      rev = "de46b3eefb810e1b251f4b19ed678d02cb08ce3f";
       fetchSubmodules = false;
-      sha256 = "sha256-30emksF0qWT9kbwEpxr7tX7J4Ur0QeSBkTBWBfMJpgM=";
+      sha256 = "sha256-DJ7hTNmz38hgyeOQPMr/ZZ9i9gakofbrXFY2eP9lWcM=";
     };
-    date = "2025-05-06";
+    date = "2025-05-08";
   };
   null = {
     pname = "null";
@@ -279,14 +279,14 @@
   };
   yosu = {
     pname = "yosu";
-    version = "553c8c526975c5107efde17950417f3738fbb72d";
+    version = "cc7ce85eb229e78a854a24653528d836974096f9";
     src = fetchFromGitHub {
       owner = "comfysage";
       repo = "yosu.nvim";
-      rev = "553c8c526975c5107efde17950417f3738fbb72d";
+      rev = "cc7ce85eb229e78a854a24653528d836974096f9";
       fetchSubmodules = false;
-      sha256 = "sha256-bic9o81gkDLFV2K1HeSMg4xHofOzqebfvSqHl41XHps=";
+      sha256 = "sha256-akV/CI8qdlMhJrAXkwU5V5bAZcgUWu30TTQau2bcln8=";
     };
-    date = "2024-06-17";
+    date = "2025-05-08";
   };
 }
