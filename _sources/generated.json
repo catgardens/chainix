@@ -190,7 +190,7 @@
     },
     "lspconfig": {
         "cargoLocks": null,
-        "date": "2025-05-04",
+        "date": "2025-05-09",
         "extract": null,
         "name": "lspconfig",
         "passthru": null,
@@ -202,12 +202,12 @@
             "name": null,
             "owner": "neovim",
             "repo": "nvim-lspconfig",
-            "rev": "4bc481b6f0c0cf3671fc894debd0e00347089a4e",
-            "sha256": "sha256-l1yocpqchfL6xjBK+VERI7ezi0Qx5dfCOkCYjNoNsf4=",
+            "rev": "f817582301b2c188c1cff7c956971ce3f85631ff",
+            "sha256": "sha256-1HSk+bIGxjOlIWL4W89aIBL9sNt8IeAwYti07AMD8GM=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "4bc481b6f0c0cf3671fc894debd0e00347089a4e"
+        "version": "f817582301b2c188c1cff7c956971ce3f85631ff"
     },
     "lualine": {
         "cargoLocks": null,
@@ -253,7 +253,7 @@
     },
     "mini": {
         "cargoLocks": null,
-        "date": "2025-05-08",
+        "date": "2025-05-09",
         "extract": null,
         "name": "mini",
         "passthru": null,
@@ -265,12 +265,12 @@
             "name": null,
             "owner": "echasnovski",
             "repo": "mini.nvim",
-            "rev": "de46b3eefb810e1b251f4b19ed678d02cb08ce3f",
-            "sha256": "sha256-DJ7hTNmz38hgyeOQPMr/ZZ9i9gakofbrXFY2eP9lWcM=",
+            "rev": "a9e4cb303ea6269ecab92c0276baf9d04370c492",
+            "sha256": "sha256-6T4mlqRNy8DP82WUZwMWx2b/AYYBPi+GG5rQPm/Cxv0=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "de46b3eefb810e1b251f4b19ed678d02cb08ce3f"
+        "version": "a9e4cb303ea6269ecab92c0276baf9d04370c492"
     },
     "null": {
         "cargoLocks": null,
@@ -484,7 +484,7 @@
     },
     "yosu": {
         "cargoLocks": null,
-        "date": "2025-05-08",
+        "date": "2025-05-09",
         "extract": null,
         "name": "yosu",
         "passthru": null,
@@ -496,11 +496,11 @@
             "name": null,
             "owner": "comfysage",
             "repo": "yosu.nvim",
-            "rev": "cc7ce85eb229e78a854a24653528d836974096f9",
-            "sha256": "sha256-akV/CI8qdlMhJrAXkwU5V5bAZcgUWu30TTQau2bcln8=",
+            "rev": "b92a8d9e294025f1d249a24f0b2538c9a8a14007",
+            "sha256": "sha256-ao7fnihe/aKyL3XAgqgIj5aVUhVS20JsYV56+QfNoJ4=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "cc7ce85eb229e78a854a24653528d836974096f9"
+        "version": "b92a8d9e294025f1d249a24f0b2538c9a8a14007"
     }
 }
