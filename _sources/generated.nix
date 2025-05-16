@@ -27,15 +27,15 @@
   };
   evergarden = {
     pname = "evergarden";
-    version = "de538e9aac1358872c118e0d7bc45462fc8205c8";
+    version = "890636446e7df3472257d17c39f66067ba698617";
     src = fetchFromGitHub {
       owner = "comfysage";
       repo = "evergarden";
-      rev = "de538e9aac1358872c118e0d7bc45462fc8205c8";
+      rev = "890636446e7df3472257d17c39f66067ba698617";
       fetchSubmodules = false;
-      sha256 = "sha256-CiRiZRmD7tuy/fNQwYJohiS1KSL+7ihTm29cMHunUWE=";
+      sha256 = "sha256-DFC8az7RA427UgJzKwnuegGHFZEwx6tjl4RELNSOKko=";
     };
-    date = "2025-04-25";
+    date = "2025-05-16";
   };
   fidget = {
     pname = "fidget";
@@ -147,15 +147,15 @@
   };
   mini = {
     pname = "mini";
-    version = "009435c6c3653d54bc62997ca6b2e8513bc52cf4";
+    version = "8f0969dd976e4f0cb8e2898596fa2eab18ce676b";
     src = fetchFromGitHub {
       owner = "echasnovski";
       repo = "mini.nvim";
-      rev = "009435c6c3653d54bc62997ca6b2e8513bc52cf4";
+      rev = "8f0969dd976e4f0cb8e2898596fa2eab18ce676b";
       fetchSubmodules = false;
-      sha256 = "sha256-tZKbFpQXvCsilqjqotIc/Vth72L8Ra/7Im6gH4oG8Rs=";
+      sha256 = "sha256-jSt32+d5hsd9IZ/VSCsNDouEDD1jQPWVLuQOD83EQR4=";
     };
-    date = "2025-05-13";
+    date = "2025-05-15";
   };
   null = {
     pname = "null";
