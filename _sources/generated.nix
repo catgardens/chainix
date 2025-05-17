@@ -27,13 +27,13 @@
   };
   evergarden = {
     pname = "evergarden";
-    version = "890636446e7df3472257d17c39f66067ba698617";
+    version = "62b6388a410fd579c2c5110944f112e9935ad7e3";
     src = fetchFromGitHub {
       owner = "comfysage";
       repo = "evergarden";
-      rev = "890636446e7df3472257d17c39f66067ba698617";
+      rev = "62b6388a410fd579c2c5110944f112e9935ad7e3";
       fetchSubmodules = false;
-      sha256 = "sha256-DFC8az7RA427UgJzKwnuegGHFZEwx6tjl4RELNSOKko=";
+      sha256 = "sha256-ITDTO5p79uftUPVlP7TGQ1xZlCxr0K7phB5YaOWEhaM=";
     };
     date = "2025-05-16";
   };
@@ -51,15 +51,15 @@
   };
   gitsigns = {
     pname = "gitsigns";
-    version = "e399f9748d7cfd8859747c8d6c4e9c8b4d50a1bd";
+    version = "39e0d1cd44eafed5f30c372e377ab1cb1781ec9f";
     src = fetchFromGitHub {
       owner = "lewis6991";
       repo = "gitsigns.nvim";
-      rev = "e399f9748d7cfd8859747c8d6c4e9c8b4d50a1bd";
+      rev = "39e0d1cd44eafed5f30c372e377ab1cb1781ec9f";
       fetchSubmodules = false;
-      sha256 = "sha256-bd7ufPg/iqomlVop4iauo495JlBBFSwxVn7s0z1NUUg=";
+      sha256 = "sha256-BOvcYUjwhX359V8IJIdm3Ib+DOGXUWl0pFfOi3+01Og=";
     };
-    date = "2025-05-14";
+    date = "2025-05-16";
   };
   incline = {
     pname = "incline";
