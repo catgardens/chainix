@@ -63,15 +63,15 @@
   };
   incline = {
     pname = "incline";
-    version = "27040695b3bbfcd3257669037bd008d1a892831d";
+    version = "0fd2d5a27504dba7fdc507a53275f22c081fe640";
     src = fetchFromGitHub {
       owner = "b0o";
       repo = "incline.nvim";
-      rev = "27040695b3bbfcd3257669037bd008d1a892831d";
+      rev = "0fd2d5a27504dba7fdc507a53275f22c081fe640";
       fetchSubmodules = false;
-      sha256 = "sha256-5chrEfjk1Q+lvGqtoUfS/cYbxCUp1gij6SMoB1QRNbs=";
+      sha256 = "sha256-Xz2OLjms3Yt+xv/BfYZoCb8O+zF6/Z5ZHBQOqcUvo6c=";
     };
-    date = "2025-03-24";
+    date = "2025-06-05";
   };
   indent = {
     pname = "indent";
@@ -135,27 +135,27 @@
   };
   luasnip = {
     pname = "luasnip";
-    version = "776a29c3e1ac61029ac3f57ac6b5937df2340162";
+    version = "5271933f7cea9f6b1c7de953379469010ed4553a";
     src = fetchFromGitHub {
       owner = "L3MON4D3";
       repo = "LuaSnip";
-      rev = "776a29c3e1ac61029ac3f57ac6b5937df2340162";
+      rev = "5271933f7cea9f6b1c7de953379469010ed4553a";
       fetchSubmodules = false;
-      sha256 = "sha256-b5ECgZGEmc/W0scz1fSsO5aFWPmbP2Dxgx9F4TuwRW8=";
+      sha256 = "sha256-x3WRiZnF2JhurxgN8N2xAG4gWi2VcDZz8QUBoqmmghE=";
     };
-    date = "2025-06-04";
+    date = "2025-06-05";
   };
   mini = {
     pname = "mini";
-    version = "5a10dfb3ab49b3ee2425bc2c215b5067ccce1c79";
+    version = "c3d398d8bfbd18ae24cb22a17cde1aaad3764cd3";
     src = fetchFromGitHub {
       owner = "echasnovski";
       repo = "mini.nvim";
-      rev = "5a10dfb3ab49b3ee2425bc2c215b5067ccce1c79";
+      rev = "c3d398d8bfbd18ae24cb22a17cde1aaad3764cd3";
       fetchSubmodules = false;
-      sha256 = "sha256-i4mQbQL+lxHEm4nNHEk/VC0bXaXunOIGemT/gEYoNEk=";
+      sha256 = "sha256-7+x6qwqJIrLHB329SzejbNnXYS5HNfMT7Vp5rZU/hr0=";
     };
-    date = "2025-06-03";
+    date = "2025-06-05";
   };
   null = {
     pname = "null";
