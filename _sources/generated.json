@@ -190,7 +190,7 @@
     },
     "lspconfig": {
         "cargoLocks": null,
-        "date": "2025-06-04",
+        "date": "2025-06-07",
         "extract": null,
         "name": "lspconfig",
         "passthru": null,
@@ -202,16 +202,16 @@
             "name": null,
             "owner": "neovim",
             "repo": "nvim-lspconfig",
-            "rev": "036885e8e5456d3907626b634693234f628afef6",
-            "sha256": "sha256-gvI6pjHWZdjYoGUO/zqwR8VbW8CbNh6zZO1nPUaucv4=",
+            "rev": "a182334ba933e58240c2c45e6ae2d9c7ae313e00",
+            "sha256": "sha256-gO7QDAYmU6ez1TAYuS2VCf9V3C2AYIj6yynQNGNa9Jw=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "036885e8e5456d3907626b634693234f628afef6"
+        "version": "a182334ba933e58240c2c45e6ae2d9c7ae313e00"
     },
     "lualine": {
         "cargoLocks": null,
-        "date": "2025-05-21",
+        "date": "2025-06-08",
         "extract": null,
         "name": "lualine",
         "passthru": null,
@@ -223,12 +223,12 @@
             "name": null,
             "owner": "nvim-lualine",
             "repo": "lualine.nvim",
-            "rev": "0c6cca9f2c63dadeb9225c45bc92bb95a151d4af",
-            "sha256": "sha256-Z6efNmO6nvaNASYS9d0WcazJm7OJyp/kbgREEI/JHIc=",
+            "rev": "a94fc68960665e54408fe37dcf573193c4ce82c9",
+            "sha256": "sha256-2aPgA7riA/FubQpTkqsxLKl7OZ8L6FkucNHc2QEx2HQ=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "0c6cca9f2c63dadeb9225c45bc92bb95a151d4af"
+        "version": "a94fc68960665e54408fe37dcf573193c4ce82c9"
     },
     "luasnip": {
         "cargoLocks": null,

@@ -111,27 +111,27 @@
   };
   lspconfig = {
     pname = "lspconfig";
-    version = "036885e8e5456d3907626b634693234f628afef6";
+    version = "a182334ba933e58240c2c45e6ae2d9c7ae313e00";
     src = fetchFromGitHub {
       owner = "neovim";
       repo = "nvim-lspconfig";
-      rev = "036885e8e5456d3907626b634693234f628afef6";
+      rev = "a182334ba933e58240c2c45e6ae2d9c7ae313e00";
       fetchSubmodules = false;
-      sha256 = "sha256-gvI6pjHWZdjYoGUO/zqwR8VbW8CbNh6zZO1nPUaucv4=";
+      sha256 = "sha256-gO7QDAYmU6ez1TAYuS2VCf9V3C2AYIj6yynQNGNa9Jw=";
     };
-    date = "2025-06-04";
+    date = "2025-06-07";
   };
   lualine = {
     pname = "lualine";
-    version = "0c6cca9f2c63dadeb9225c45bc92bb95a151d4af";
+    version = "a94fc68960665e54408fe37dcf573193c4ce82c9";
     src = fetchFromGitHub {
       owner = "nvim-lualine";
       repo = "lualine.nvim";
-      rev = "0c6cca9f2c63dadeb9225c45bc92bb95a151d4af";
+      rev = "a94fc68960665e54408fe37dcf573193c4ce82c9";
       fetchSubmodules = false;
-      sha256 = "sha256-Z6efNmO6nvaNASYS9d0WcazJm7OJyp/kbgREEI/JHIc=";
+      sha256 = "sha256-2aPgA7riA/FubQpTkqsxLKl7OZ8L6FkucNHc2QEx2HQ=";
     };
-    date = "2025-05-21";
+    date = "2025-06-08";
   };
   luasnip = {
     pname = "luasnip";
