@@ -253,7 +253,7 @@
     },
     "mini": {
         "cargoLocks": null,
-        "date": "2025-06-21",
+        "date": "2025-06-22",
         "extract": null,
         "name": "mini",
         "passthru": null,
@@ -265,12 +265,12 @@
             "name": null,
             "owner": "echasnovski",
             "repo": "mini.nvim",
-            "rev": "a03a9a4f79916579b2debaec629333e2ebdd82b5",
-            "sha256": "sha256-aPQpyOj4T1mQZEiUWCumk55WBDP+SQo59TCyiQH1kBI=",
+            "rev": "1b32a3f61f1f649cadc748bd4b7a32b4b4785d29",
+            "sha256": "sha256-cfgANg0vRJg31x+BiSfYhwBSyQnYt/aRDx6+BaS0YYY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "a03a9a4f79916579b2debaec629333e2ebdd82b5"
+        "version": "1b32a3f61f1f649cadc748bd4b7a32b4b4785d29"
     },
     "null": {
         "cargoLocks": null,
