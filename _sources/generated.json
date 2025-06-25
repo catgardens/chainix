@@ -190,7 +190,7 @@
     },
     "lspconfig": {
         "cargoLocks": null,
-        "date": "2025-06-23",
+        "date": "2025-06-24",
         "extract": null,
         "name": "lspconfig",
         "passthru": null,
@@ -202,12 +202,12 @@
             "name": null,
             "owner": "neovim",
             "repo": "nvim-lspconfig",
-            "rev": "5e0e9c00d51fcb7efef0d4c49023f9593b38661e",
-            "sha256": "sha256-61bCjd+8oX8KAgwGPymiTd4rkaqGXrgeALy19j2CkBY=",
+            "rev": "2d0ca00368742c0c7af802b9b2a920c4cd02303a",
+            "sha256": "sha256-M7zPwY85DXjpUoFzGTf9GDd3d82OKKRQ4CzbeO7QW88=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "5e0e9c00d51fcb7efef0d4c49023f9593b38661e"
+        "version": "2d0ca00368742c0c7af802b9b2a920c4cd02303a"
     },
     "lualine": {
         "cargoLocks": null,
@@ -253,7 +253,7 @@
     },
     "mini": {
         "cargoLocks": null,
-        "date": "2025-06-22",
+        "date": "2025-06-24",
         "extract": null,
         "name": "mini",
         "passthru": null,
@@ -265,12 +265,12 @@
             "name": null,
             "owner": "echasnovski",
             "repo": "mini.nvim",
-            "rev": "1b32a3f61f1f649cadc748bd4b7a32b4b4785d29",
-            "sha256": "sha256-cfgANg0vRJg31x+BiSfYhwBSyQnYt/aRDx6+BaS0YYY=",
+            "rev": "01dce72f2177de6044bcab60ebb8f8e56ade0936",
+            "sha256": "sha256-rLRRr33pvzajRJ63dl1e3WrXS9BplGMuzxaBbuPfmPU=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "1b32a3f61f1f649cadc748bd4b7a32b4b4785d29"
+        "version": "01dce72f2177de6044bcab60ebb8f8e56ade0936"
     },
     "null": {
         "cargoLocks": null,
