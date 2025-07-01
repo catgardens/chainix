@@ -43,7 +43,7 @@
     },
     "evergarden": {
         "cargoLocks": null,
-        "date": "2025-06-17",
+        "date": "2025-06-30",
         "extract": null,
         "name": "evergarden",
         "passthru": null,
@@ -55,12 +55,12 @@
             "name": null,
             "owner": "comfysage",
             "repo": "evergarden",
-            "rev": "f8bda159eb756bd615d250aae819459b55b30399",
-            "sha256": "sha256-m8W+WcuA94zSZTRihVRbFkZKJcQrrhJgvCD7Z9EDfsA=",
+            "rev": "c14825f09f61c325338e84976e00dfe9a6d4d5cf",
+            "sha256": "sha256-hoc9AyGr7JFLU3QzsFUcCEIE6GeDCAB/apP4y+wwfNQ=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "f8bda159eb756bd615d250aae819459b55b30399"
+        "version": "c14825f09f61c325338e84976e00dfe9a6d4d5cf"
     },
     "fidget": {
         "cargoLocks": null,
@@ -85,7 +85,7 @@
     },
     "gitsigns": {
         "cargoLocks": null,
-        "date": "2025-06-20",
+        "date": "2025-06-30",
         "extract": null,
         "name": "gitsigns",
         "passthru": null,
@@ -97,12 +97,12 @@
             "name": null,
             "owner": "lewis6991",
             "repo": "gitsigns.nvim",
-            "rev": "1b0350ab707713b2bc6c236151f1a324175347b1",
-            "sha256": "sha256-sXKPPkmycrpD4W5ul87mOe957w+RDLdqxpVUfeu2CZE=",
+            "rev": "588264bee92993df92535b6742576f5655c91b1c",
+            "sha256": "sha256-vEaRcRMhsYo+rhVQ8K+bXwCFGytPK/pPesWY+TablO8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "1b0350ab707713b2bc6c236151f1a324175347b1"
+        "version": "588264bee92993df92535b6742576f5655c91b1c"
     },
     "incline": {
         "cargoLocks": null,
@@ -190,7 +190,7 @@
     },
     "lspconfig": {
         "cargoLocks": null,
-        "date": "2025-06-25",
+        "date": "2025-06-30",
         "extract": null,
         "name": "lspconfig",
         "passthru": null,
@@ -202,12 +202,12 @@
             "name": null,
             "owner": "neovim",
             "repo": "nvim-lspconfig",
-            "rev": "6bba673aa8993eceec233be17b42ddfb9540794b",
-            "sha256": "sha256-arREUWBT5RWCNjttVZQg3se07atinAU9VxIe7tu8wdY=",
+            "rev": "1cb30b1bafe5a63a5c6ac20dc39f83487df38855",
+            "sha256": "sha256-zznE+Y+So3moPw2ZOZONiSqWadrOMifyCZUsSIvIAtY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "6bba673aa8993eceec233be17b42ddfb9540794b"
+        "version": "1cb30b1bafe5a63a5c6ac20dc39f83487df38855"
     },
     "lualine": {
         "cargoLocks": null,
