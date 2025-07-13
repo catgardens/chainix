@@ -159,15 +159,15 @@
   };
   null = {
     pname = "null";
-    version = "db2a48b79cfcdab8baa5d3f37f21c78b6705c62e";
+    version = "1280212f9308e13cb3c0e9a27b90024aa2bb7a89";
     src = fetchFromGitHub {
       owner = "nvimtools";
       repo = "none-ls.nvim";
-      rev = "db2a48b79cfcdab8baa5d3f37f21c78b6705c62e";
+      rev = "1280212f9308e13cb3c0e9a27b90024aa2bb7a89";
       fetchSubmodules = false;
-      sha256 = "sha256-wPZ+NsNzYCGDbE/NgK8qJsJOkCaiMcInXwqOqE0TKUY=";
+      sha256 = "sha256-lYTH6xzCbOYnJeCXzgiAQ3KWyAmR7FcivQcskjuFxpw=";
     };
-    date = "2025-05-24";
+    date = "2025-07-12";
   };
   nvim-cmp = {
     pname = "nvim-cmp";
