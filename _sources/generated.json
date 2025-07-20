@@ -190,7 +190,7 @@
     },
     "lspconfig": {
         "cargoLocks": null,
-        "date": "2025-07-18",
+        "date": "2025-07-19",
         "extract": null,
         "name": "lspconfig",
         "passthru": null,
@@ -202,12 +202,12 @@
             "name": null,
             "owner": "neovim",
             "repo": "nvim-lspconfig",
-            "rev": "f6da6f19b7d83a5133745adc41042170bdff835a",
-            "sha256": "sha256-tfSbMcY7iUoGt1OHLcDjCODqeNsuEPK4OtMCIJV4c0M=",
+            "rev": "f47cd681d7cb6048876a2e908b6d8ba1e530d152",
+            "sha256": "sha256-dr5zHWzlfUd4lSUZbqbWa9Fg/hPnN4tCnmHdKvO07nY=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "f6da6f19b7d83a5133745adc41042170bdff835a"
+        "version": "f47cd681d7cb6048876a2e908b6d8ba1e530d152"
     },
     "lualine": {
         "cargoLocks": null,
@@ -232,7 +232,7 @@
     },
     "luasnip": {
         "cargoLocks": null,
-        "date": "2025-07-06",
+        "date": "2025-07-19",
         "extract": null,
         "name": "luasnip",
         "passthru": null,
@@ -244,12 +244,12 @@
             "name": null,
             "owner": "L3MON4D3",
             "repo": "LuaSnip",
-            "rev": "66b5c2707e624dcd2cd3605676c64a2efe47e9d1",
-            "sha256": "sha256-vEHHSE3lt6iBkoA4ye6NbU5xyBS0J29dLjQrljxk6LU=",
+            "rev": "831a130291eb6dae0dabd2748d0a99401a2eebc4",
+            "sha256": "sha256-og3qUQSB27pKLmguWUWJodvcgu5+mCS1rUMODS17fF4=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "66b5c2707e624dcd2cd3605676c64a2efe47e9d1"
+        "version": "831a130291eb6dae0dabd2748d0a99401a2eebc4"
     },
     "mini": {
         "cargoLocks": null,
