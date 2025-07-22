@@ -85,7 +85,7 @@
     },
     "gitsigns": {
         "cargoLocks": null,
-        "date": "2025-07-16",
+        "date": "2025-07-21",
         "extract": null,
         "name": "gitsigns",
         "passthru": null,
@@ -97,12 +97,12 @@
             "name": null,
             "owner": "lewis6991",
             "repo": "gitsigns.nvim",
-            "rev": "0cb5a7753d3c4b8e9cfdc9d88d9110cb8d4b1544",
-            "sha256": "sha256-zrn67MsSYuZSH5L5XyWGKopN/KKepvmV7WZF6+DPpig=",
+            "rev": "93f882f7041a2e779addbd34943812ca66edef5a",
+            "sha256": "sha256-B7ZEw4XEMm31SN09fhuX36mxkpIKWxLMqEoYFljxeEc=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "0cb5a7753d3c4b8e9cfdc9d88d9110cb8d4b1544"
+        "version": "93f882f7041a2e779addbd34943812ca66edef5a"
     },
     "incline": {
         "cargoLocks": null,
