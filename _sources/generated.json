@@ -85,7 +85,7 @@
     },
     "gitsigns": {
         "cargoLocks": null,
-        "date": "2025-07-21",
+        "date": "2025-07-22",
         "extract": null,
         "name": "gitsigns",
         "passthru": null,
@@ -97,12 +97,12 @@
             "name": null,
             "owner": "lewis6991",
             "repo": "gitsigns.nvim",
-            "rev": "93f882f7041a2e779addbd34943812ca66edef5a",
-            "sha256": "sha256-B7ZEw4XEMm31SN09fhuX36mxkpIKWxLMqEoYFljxeEc=",
+            "rev": "1fcaddcc427ff5802b6602f46de37a5352d0f9e0",
+            "sha256": "sha256-EC7Ot/lLj9eEpccl6bt+7BDiIpBptL0p9iLXCZRaQe8=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "93f882f7041a2e779addbd34943812ca66edef5a"
+        "version": "1fcaddcc427ff5802b6602f46de37a5352d0f9e0"
     },
     "incline": {
         "cargoLocks": null,
@@ -253,7 +253,7 @@
     },
     "mini": {
         "cargoLocks": null,
-        "date": "2025-07-20",
+        "date": "2025-07-22",
         "extract": null,
         "name": "mini",
         "passthru": null,
@@ -265,12 +265,12 @@
             "name": null,
             "owner": "echasnovski",
             "repo": "mini.nvim",
-            "rev": "77e20cd6ed80fdf1738c116c35da81e7d9ad997e",
-            "sha256": "sha256-c/odstUo04wRxJUq/Y6HTGye0h6NSR/pNbd42IuuSjc=",
+            "rev": "432a0614f8dc38715892b0eec537716457ea4c2f",
+            "sha256": "sha256-OTTuDqGNI3hbWa8SBxdTHpqExxLkihASwy7uZ1yE+QQ=",
             "sparseCheckout": [],
             "type": "github"
         },
-        "version": "77e20cd6ed80fdf1738c116c35da81e7d9ad997e"
+        "version": "432a0614f8dc38715892b0eec537716457ea4c2f"
     },
     "null": {
         "cargoLocks": null,
