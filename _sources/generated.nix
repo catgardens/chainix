@@ -51,15 +51,15 @@
   };
   gitsigns = {
     pname = "gitsigns";
-    version = "1fcaddcc427ff5802b6602f46de37a5352d0f9e0";
+    version = "b01433169be710d6c69f7b4ee264d9670698b831";
     src = fetchFromGitHub {
       owner = "lewis6991";
       repo = "gitsigns.nvim";
-      rev = "1fcaddcc427ff5802b6602f46de37a5352d0f9e0";
+      rev = "b01433169be710d6c69f7b4ee264d9670698b831";
       fetchSubmodules = false;
-      sha256 = "sha256-EC7Ot/lLj9eEpccl6bt+7BDiIpBptL0p9iLXCZRaQe8=";
+      sha256 = "sha256-7BKwxHoFWGepqm8/J+RB6zu+7IpGUUmgLP4a2O2lIuA=";
     };
-    date = "2025-07-22";
+    date = "2025-07-25";
   };
   incline = {
     pname = "incline";
