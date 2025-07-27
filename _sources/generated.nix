@@ -183,15 +183,15 @@
   };
   plenary = {
     pname = "plenary";
-    version = "857c5ac632080dba10aae49dba902ce3abf91b35";
+    version = "b9fd5226c2f76c951fc8ed5923d85e4de065e509";
     src = fetchFromGitHub {
       owner = "nvim-lua";
       repo = "plenary.nvim";
-      rev = "857c5ac632080dba10aae49dba902ce3abf91b35";
+      rev = "b9fd5226c2f76c951fc8ed5923d85e4de065e509";
       fetchSubmodules = false;
-      sha256 = "sha256-8FV5RjF7QbDmQOQynpK7uRKONKbPRYbOPugf9ZxNvUs=";
+      sha256 = "sha256-9Un7ekhBxcnmFE1xjCCFTZ7eqIbmXvQexpnhduAg4M0=";
     };
-    date = "2025-02-11";
+    date = "2025-07-26";
   };
   telescope = {
     pname = "telescope";
