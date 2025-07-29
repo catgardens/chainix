@@ -39,15 +39,15 @@
   };
   fidget = {
     pname = "fidget";
-    version = "d9ba6b7bfe29b3119a610892af67602641da778e";
+    version = "17ce5ac3b4e5ef590d4f4fd7d91e8fc233114074";
     src = fetchFromGitHub {
       owner = "j-hui";
       repo = "fidget.nvim";
-      rev = "d9ba6b7bfe29b3119a610892af67602641da778e";
+      rev = "17ce5ac3b4e5ef590d4f4fd7d91e8fc233114074";
       fetchSubmodules = false;
-      sha256 = "sha256-AFUx/ZQVWV7s5Wlppjk6N9QXoJKNKqxtf990FFlTEhw=";
+      sha256 = "sha256-ZgF8/1tVoBMAnGCAFWL3++hzZ2/CN03ECUw+1eCFOKw=";
     };
-    date = "2025-02-05";
+    date = "2025-07-27";
   };
   gitsigns = {
     pname = "gitsigns";
