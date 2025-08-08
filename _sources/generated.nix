@@ -147,15 +147,15 @@
   };
   mini = {
     pname = "mini";
-    version = "03387f53f1cb8c6a8ba0798041c6aa3525ed11ba";
+    version = "4035ef97407a6661ae9ff913ff980e271a658502";
     src = fetchFromGitHub {
       owner = "echasnovski";
       repo = "mini.nvim";
-      rev = "03387f53f1cb8c6a8ba0798041c6aa3525ed11ba";
+      rev = "4035ef97407a6661ae9ff913ff980e271a658502";
       fetchSubmodules = false;
-      sha256 = "sha256-pHXqClLndY3x8HqCbSwgBzZ0objTcWQuzJhc1Lul698=";
+      sha256 = "sha256-VBwCwwsE+wpUUuVP0f85pVvrAEjGfnVj78i0CfukSLg=";
     };
-    date = "2025-08-05";
+    date = "2025-08-07";
   };
   null = {
     pname = "null";
