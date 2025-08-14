@@ -39,13 +39,13 @@
   };
   fidget = {
     pname = "fidget";
-    version = "6ada5b6b802e15f49d3142172f590bde652347ba";
+    version = "2cb5edb2dd6700a958a446b20bb2be04d318da9d";
     src = fetchFromGitHub {
       owner = "j-hui";
       repo = "fidget.nvim";
-      rev = "6ada5b6b802e15f49d3142172f590bde652347ba";
+      rev = "2cb5edb2dd6700a958a446b20bb2be04d318da9d";
       fetchSubmodules = false;
-      sha256 = "sha256-ZuDK+7CGFv5D+pfhtPBfg7ayTO8YlnYYJefWktBK4nw=";
+      sha256 = "sha256-Hcnbk6go2vYCYqSfXLWQ+KimpU+NPbIkjBTKGMFoNQM=";
     };
     date = "2025-08-12";
   };
