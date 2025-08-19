@@ -111,15 +111,15 @@
   };
   lspconfig = {
     pname = "lspconfig";
-    version = "612d9fcc652725ce2e3a8043daad6cfc6865c4a7";
+    version = "34c9ecfdcc19d579f51c072300a71445fbec9da8";
     src = fetchFromGitHub {
       owner = "neovim";
       repo = "nvim-lspconfig";
-      rev = "612d9fcc652725ce2e3a8043daad6cfc6865c4a7";
+      rev = "34c9ecfdcc19d579f51c072300a71445fbec9da8";
       fetchSubmodules = false;
-      sha256 = "sha256-13m1VRh0R4nrpb5DS5mWAzFYIlyFgvhPsywgF7/F7AU=";
+      sha256 = "sha256-JvTVycmuzngHTueTb/Ug+qfXD1LlpK5aDSyw8hF5Tbo=";
     };
-    date = "2025-08-17";
+    date = "2025-08-18";
   };
   lualine = {
     pname = "lualine";
